@@ -102,7 +102,7 @@ public class Owner {
 	public StringProperty stateProperty() {
 	  return state;
 	}
-	public final void setState(String n) {
+	public void setState(String n) {
 		this.state.setValue(n);
 	}	
 	
