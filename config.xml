@@ -3,5 +3,5 @@
 	<User>root</User>
 	<DBName>csc540_sample</DBName>
 	<Port>3306</Port>
-	<PW>B00mB00m</PW>
+	<PW>your-pw-here</PW>
 </root>
