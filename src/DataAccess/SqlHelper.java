@@ -36,7 +36,7 @@ public class SqlHelper {
 		fieldsToFetch[3] = databasePassword;
 		fieldsToFetch[4] = connectionUrl;
 		
-		Hashtable<String, String> configuration = new ConfigurationReader("config.xml").getConfiguration(fieldsToFetch);
+		Hashtable<String, String> configuration = new ConfigurationReader("C:\\dev\\CSC540-JavaSample\\config.xml").getConfiguration(fieldsToFetch);
 
 		this._connection = JDBCUrlBuilder.build(
 			configuration.get(connectionUrl),
